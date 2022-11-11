@@ -7,7 +7,7 @@
 
 ## Compass
 
-<img src="./screen.png" style="zoom:33%;" width="100px" ></img>
+<img src="./screen.png" style="zoom:33%;" width="250px" ></img>
 
 Welcome to Compass! A zodiac Compass iOS App.
 
