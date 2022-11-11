@@ -56,7 +56,7 @@ public class DegreeScaleView: UIView {
     
     private lazy var centerView: UIImageView = {
         let v = UIImageView(frame: bounds)
-        v.image = UIImage(named: "jb-indicator")
+        v.image = UIImage(named: "jb-indicator.png")
         v.frame = .init(x: 0, y: 0, width: 25, height: 25)
         return v
     }()
@@ -64,7 +64,7 @@ public class DegreeScaleView: UIView {
     /// 背景视图
     private lazy var dialView: UIImageView = {
         let v = UIImageView(frame: bounds)
-        v.image = UIImage(named: "jb-luopan")
+        v.image = UIImage(named: "jb-luopan.png")
         v.frame = frame
         return v
     }()
