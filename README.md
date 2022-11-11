@@ -1,15 +1,21 @@
 # JbCompass
 
-[![CI Status](https://img.shields.io/travis/zans.lb@foxmail.com/JbCompass.svg?style=flat)](https://travis-ci.org/zans.lb@foxmail.com/JbCompass)
+[![CI Status](https://img.shields.io/travis/pods/JbCompass.svg?style=flat)](https://travis-ci.org/pods/JbCompass)
 [![Version](https://img.shields.io/cocoapods/v/JbCompass.svg?style=flat)](https://cocoapods.org/pods/JbCompass)
 [![License](https://img.shields.io/cocoapods/l/JbCompass.svg?style=flat)](https://cocoapods.org/pods/JbCompass)
 [![Platform](https://img.shields.io/cocoapods/p/JbCompass.svg?style=flat)](https://cocoapods.org/pods/JbCompass)
 
-## Example
+## Compass
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+<img src="./screen.png" style="zoom:33%;" ></img>
+
+Welcome to Compass! A zodiac Compass iOS App.
+
+This project is intended to offer a simple and good looking [Chinese] zodiac compass for IOS
 
 ## Requirements
+
+Swift ios13+
 
 ## Installation
 
@@ -19,10 +25,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'JbCompass'
 ```
-
-## Author
-
-zans.lb@foxmail.com, Xiuzhe@mail.com
 
 ## License
 

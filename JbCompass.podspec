@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JbCompass'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'A short description of JbCompass.'
 
 # This description is used to generate tags and improve search results.
@@ -21,20 +21,20 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/zans.lb@foxmail.com/JbCompass'
+  s.homepage         = 'https://github.com/LetMeCoder/JbCompass'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'zans.lb@foxmail.com' => 'Xiuzhe@mail.com' }
-  s.source           = { :git => 'https://github.com/zans.lb@foxmail.com/JbCompass.git', :tag => s.version.to_s }
+  s.author           = { 'letme-code' => 'zans.lb@foxmail.com' }
+  s.source           = { :git => 'https://github.com/LetMeCoder/JbCompass.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'JbCompass/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'JbCompass' => ['JbCompass/Assets/*.png']
-  # }
+    s.resource_bundles = {
+     'JbCompass' => ['JbCompass/Assets/*.png']
+    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
