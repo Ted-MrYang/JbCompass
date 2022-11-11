@@ -1,4 +1,5 @@
 use_frameworks!
+install! 'cocoapods', :deterministic_uuids => false
 
 platform :ios, '13.0'
 
